@@ -2,8 +2,6 @@
 
 # Next.js Commerce x Medusa
 
-> Note: Looking for Next.js Commerce v1? View the [code](https://github.com/vercel/commerce/tree/v1), [demo](https://commerce-v1.vercel.store), and [release notes](https://github.com/vercel/commerce/releases/tag/v1)
-
 A Next.js 13 and App Router-ready ecommerce template, built with [Medusa](https://github.com/medusajs/medusa), featuring:
 
 - Next.js App Router
@@ -17,6 +15,7 @@ A Next.js 13 and App Router-ready ecommerce template, built with [Medusa](https:
 - Automatic light/dark mode based on system settings
 
 ## What is Medusa?
+
 
 [Medusa](https://medusajs.com/) is a set of commerce modules and tools that allow you to build rich, reliable, and performant commerce applications without reinventing core commerce logic. The modules can be customized and used to build advanced ecommerce stores, marketplaces, or any system that needs foundational commerce primitives. All modules are open-source and freely available on NPM.
 
@@ -34,9 +33,11 @@ npx create-medusa-app@nextjs-commerce
 
 This will create a new main folder with two subfolders for Medusa and Next.js Commerce respectively.
 
+
 2\. Create a Postgres database named `vercel-commerce` and make sure the Postgres server is running locally.
 
 3\. Inside your newly created `nextjs-commerce` project, change to the `medusa` folder and seed the database:
+
 
 ```bash
 cd nextjs-commerce/medusa
